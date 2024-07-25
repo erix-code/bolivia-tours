@@ -65,9 +65,10 @@ module.exports = {
                 'secondary': '#BA265F',
                 'tertiary': '#913B7D',
             },
-            size: {
-                "120": "28rem",
-                "128": "32rem"
+            height: {
+                '128': '32rem',
+                '136': '34rem',
+                '144': '36rem'
             }
         },
     },
