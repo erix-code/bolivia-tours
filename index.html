@@ -19,29 +19,53 @@
 	<section class="w-full ">
 		<div id="home">
 			<div class="w-full h-3/4">
-				<div class="w-full h-full flex flex-col absolute space-y-20 py-4 items-center ">
-					<h1 class="text-center text-2xl font-bold mt-2">Descubre Los Mejores <br> Lugares de Boliva</h1>
-					<input class="outline-none p-3 rounded-full shadow-sm text-center" placeholder="Casa de la moneda" type="search" >
-					<button class="text-lg text-primary font-semibold p-4  bg-white w-36 rounded-full shadow-sm">
+				<div class="w-full h-full flex flex-col absolute space-y-16 py-4 items-center ">
+					<h1 class="text-center text-3xl font-bold  mt-2 text-primary-900 shadow-sm  uppercase main-title">
+						Descubre Los Mejores Lugares<br> de  Boliva</h1>
+					<input class="outline-none p-3 rounded-full shadow-sm text-center focus-within:shadow-sm focus:ring-2 focus:w-11/12 " placeholder="Casa de la moneda" type="search" >
+					<button class="text-lg text-primary font-semibold p-1
+					  bg-white w-36 rounded-full shadow-sm border-2 border-primary
+					  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:translate-y-1 hover:scale-110">
 						Explorar
 					</button>
 				</div>
 				<div class="w-full h-full">
-					<img src="public/img/bolivia/statue.jpg" class="object-cover w-full h-96" alt="San Francisco">
+					<img src="public/img/bolivia/Cards/lago-titicaca.jpg" class="object-cover w-full h-96" alt="San Francisco">
 				</div>
 
 			</div>
 		</div>
-		<div class="p-5" id="places">
-			<div class="w-48 h-64 shadow-md rounded-lg">
-				<div class="w-full h-3/5 rounded-t-lg bg-isla_del_sol bg-cover"></div>
-				<div class="w-full h-2/5 bg-primary p-2 rounded-b-lg">
-					<p class="text-white font-bold text-xl mb-2">Lago Titicaca</p>
-					<p class="text-white text-md">El mejor lugar para visitar</p>
+		<div class="p-6" id="recommend_places">
+			<h2 class="text-2xl text-primary font-semibold">Recomendados</h2>
+
+			<div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex flex-row space-x-4">
+				<div class="Card">
+					<div class="w-full h-3/5 rounded-t-lg bg-isla_del_sol bg-cover"></div>
+					<div class="w-full h-2/5 bg-primary p-2 rounded-b-lg">
+						<p class="text-white font-bold text-xl mb-2">Lago Titicaca</p>
+						<p class="text-white text-md">El mejor lugar para visitar</p>
+					</div>
+				</div>
+				<div class="Card">
+					<div class="w-full h-3/5 rounded-t-lg bg-isla_del_sol bg-cover"></div>
+					<div class="w-full h-2/5 bg-primary p-2 rounded-b-lg">
+						<p class="text-white font-bold text-xl mb-2">Lago Titicaca</p>
+						<p class="text-white text-md">El mejor lugar para visitar</p>
+					</div>
+				</div>
+				<div class="Card">
+					<div class="w-full h-3/5 rounded-t-lg bg-isla_del_sol bg-cover"></div>
+					<div class="w-full h-2/5 bg-primary p-2 rounded-b-lg">
+						<p class="text-white font-bold text-xl mb-2">Lago Titicaca</p>
+						<p class="text-white text-md">El mejor lugar para visitar</p>
+					</div>
 				</div>
 			</div>
+
 		</div>
-		<div id="featured_places"></div>
+		<div id="featured_places">
+
+		</div>
 	</section>
 	<footer></footer>
 	<script>
