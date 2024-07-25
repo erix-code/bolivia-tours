@@ -17,11 +17,11 @@
 	<nav id="navbar">
 	</nav>
 	<section class="w-full ">
-		<div id="home">
+		<div id="home" class="">
 			<div class="w-full h-3/4">
-				<div class="w-full h-full flex flex-col absolute space-y-16 py-4 items-center ">
-					<h1 class="text-center text-3xl font-bold  mt-2 text-primary-900 shadow-sm  uppercase main-title">
-						Descubre Los Mejores Lugares<br> de  Boliva</h1>
+				<div class="w-full h-full flex flex-col absolute space-y-12 py-4 items-center ">
+					<h1 class="text-center text-5xl font-bold  mt-2 text-primary-600 shadow-sm  uppercase main-title font-Koulen">
+						Descubre Los Mejores Lugares de  Boliva</h1>
 					<input class="outline-none p-3 rounded-full shadow-sm text-center focus-within:shadow-sm focus:ring-2 focus:w-11/12 " placeholder="Casa de la moneda" type="search" >
 					<button class="text-lg text-primary font-semibold p-1
 					  bg-white w-36 rounded-full shadow-sm border-2 border-primary
@@ -38,7 +38,7 @@
 		<div class="p-6" id="recommend_places">
 			<h2 class="text-2xl text-primary font-semibold">Recomendados</h2>
 
-			<div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex flex-row space-x-4">
+			<div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex flex-row space-x-4 overflow-y-hidden">
 				<div class="Card">
 					<div class="w-full h-3/5 rounded-t-lg bg-isla_del_sol bg-cover"></div>
 					<div class="w-full h-2/5 bg-primary p-2 rounded-b-lg">
@@ -63,7 +63,23 @@
 			</div>
 
 		</div>
-		<div id="featured_places">
+		<div id="featured_places" class="px-6">
+			<h2 class="text-2xl text-primary font-semibold">Ciudades destacadas</h2>
+
+			<div class="w-full h-full grid  grid-cols-1 grid-rows-3 md:grid-cols-3  md:grid-rows-2 gap-y-4 mt-6">
+				<div class="w-full h-72 bg-la_paz bg-cover rounded-lg col-span-1 row-span-1 space-y-4">
+					<h3 class="CardTitle">La Paz</h3>
+					<p class="text-md pl-8 text-white mr-8">La ciudad maravilla de Bolivia</p>
+				</div>
+				<div class="w-full h-72 bg-la_paz bg-cover rounded-lg col-span-1 row-span-1">
+					<h3 class="CardTitle">La Paz</h3>
+					<p class="text-md pl-8 text-white mr-8">La ciudad maravilla de Bolivia</p>
+				</div>
+				<div class="w-full h-72 bg-la_paz bg-cover rounded-lg col-span-1 row-span-1">
+					<h3 class="CardTitle">La Paz</h3>
+					<p class="text-md pl-8 text-white mr-8">La ciudad maravilla de Bolivia</p>
+				</div>
+			</div>
 
 		</div>
 	</section>

@@ -57,6 +57,8 @@ module.exports = {
             },
             fontFamily: {
                 Montserrat: ["Montserrat", "sans-serif"],
+                Koulen: ["Koulen"],
+
             },
             borderColor: {
                 'primary': '#cc2d2d',

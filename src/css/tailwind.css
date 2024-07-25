@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+	@font-face {
+		font-family: 'Koulen';
+		font-style: normal;
+		src: url(/public/fonts/Koulen/Koulen-Regular.ttf) format('woff2');
+	}
+}
 /*.Card{*/
 /*	@apply w-48 h-64 flex-none shadow-md rounded-lg transform transition-all hover:-translate-y-4 hover:shadow-xl */
 /*}*/
 .Card {
-	@apply w-48 h-64 shadow-md rounded-lg flex-none
+	@apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-3 hover:shadow-xl
 }
 .main-title {
 	text-shadow: 1px 1px 20px #ffffff;
 }
 .CardTitle{
-	@apply text-3xl px-8 pt-8 pb-1 font-semibold text-white 
+	@apply text-xl px-8 pt-8 pb-1 font-semibold text-white
 }
 @layer utilities {
 	.scrollbar::-webkit-scrollbar {
