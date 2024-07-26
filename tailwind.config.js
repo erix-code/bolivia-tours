@@ -7,7 +7,7 @@ module.exports = {
         './index.html',
     ],
     purge: [
-        './src/**/*.html',
+        '*.html',
     ],
     darkMode: 'class', // or 'media' or 'class'
     theme: {
