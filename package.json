@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	  "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
-	  "tw:dev": "tailwindcss -o tailwind.css --watch",
-	  "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
-      "tw-dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/index.css --watch"
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:dev": "tailwindcss -o tailwind.css --watch",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw-dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/index.css --watch"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
   "homepage": "https://github.com/anamdiazs/PlatziTravel#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.4",
+    "cssnano": "^7.0.4",
+    "postcss": "^8.4.40",
+    "postcss-cli": "^11.0.0",
     "tailwindcss": "^2.2.19"
   }
 }
