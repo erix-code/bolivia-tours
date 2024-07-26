@@ -7,7 +7,7 @@
 	@font-face {
 		font-family: 'Koulen';
 		font-style: normal;
-		src: url(public/fonts/Koulen/Koulen-Regular.ttf) format('woff2');
+		src: url(/public/fonts/Koulen/Koulen-Regular.ttf) format('woff2');
 	}
 }
 /*.Card{*/
