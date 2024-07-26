@@ -18,12 +18,12 @@ module.exports = {
                 lg: '0 8px 16px var(--tw-shadow-color)',
             },
             backgroundImage: {
-                'la_paz': "url('./public/img/bolivia/Cards/vista-a-la-paz.jpg')",
-                'isla_del_sol': "url('./public/img/bolivia/Cards/isla-del-sol.jpg')",
-                'caption': "url('./public/img/bolivia/Cards/caption.jpg')",
-                'station-center': "url('./public/img/bolivia/Cards/estacion-central-linea.jpg')",
-                'titicaca': "url('./public/img/bolivia/Cards/lago-titicaca.jpg')",
-                'lake': "url('./public/img/bolivia/Cards/linda-y-especial-para.jpg')",
+                'la_paz': "url('/public/img/bolivia/Cards/vista-a-la-paz.jpg')",
+                'isla_del_sol': "url('/public/img/bolivia/Cards/isla-del-sol.jpg')",
+                'caption': "url('/public/img/bolivia/Cards/caption.jpg')",
+                'station-center': "url('/public/img/bolivia/Cards/estacion-central-linea.jpg')",
+                'titicaca': "url('/public/img/bolivia/Cards/lago-titicaca.jpg')",
+                'lake': "url('/public/img/bolivia/Cards/linda-y-especial-para.jpg')",
             },
             backgroundColor: theme => ({
                 ...theme('colors'),
